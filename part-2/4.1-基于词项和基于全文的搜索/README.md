@@ -45,7 +45,7 @@ POST /products/_search
     }
   }
 }
-# 分词器执行结果
+# 分词器执行结果 
 POST /_analyze 
 {
   "analyzer" : "standard",
