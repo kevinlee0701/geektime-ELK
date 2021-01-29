@@ -45,7 +45,12 @@ POST /products/_search
     }
   }
 }
-
+# 分词器执行结果
+POST /_analyze 
+{
+  "analyzer" : "standard",
+  "text":["XHDK-A-1293-#fJ3"]
+}
 
 POST /products/_search
 {
